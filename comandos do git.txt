@@ -1,0 +1,22 @@
+https://github.com/viniciusvsjesus/Java-Basico.git
+******* Configuração Git
+git branch -m main 
+git config --global user.email viniciusvsprofissional@gmail.com
+git config --global user.name viniciusvsjesus
+git config --global init.defaulrBranch main
+git init  
+git remote add origin https://github.com/viniciusvsjesus/Java-Basico.git
+git add *.java
+git status
+git commit -m "Primeiro commit"
+git push origin main
+
+git remote -v //Faz a verificação 
+git status //Verifica o status
+
+
+
+git commit -m "Alguma coisa"
+git push upstream //
+Fork = repositório diferentes em contas diferentes
+Merge = combinar duas branchs para colocar na principal
